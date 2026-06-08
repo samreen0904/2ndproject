@@ -12,6 +12,9 @@
     src: url(./fonts/Roboto-ExtraLight.ttf);
 }
 
+body{
+    background-color: red;
+}
 header{
     width: 100%;
     height: 14vh;
@@ -470,6 +473,7 @@ top: 400%;
 .excard3{
     padding-top: 80px;
 }
+
 
 /* extention section end */
 
