@@ -734,6 +734,9 @@ header{
     width: 100%;
     
 }
+.extention-cards button{
+    padding: 0px 80px;
+}
 .mean-cards{
     flex-direction: column;
     padding-top: 650px;
@@ -889,7 +892,7 @@ padding-left: 90px;
 
  .hero-4th{
       flex-direction: column-reverse;
-    padding: 200px 30px 200px 50px;
+    padding: 200px 30px 100px 50px;
 
 }
 .hero-4th .hero-content{
@@ -908,7 +911,7 @@ padding-left: 90px;
 
 .hero-4th #image-4th{
      width: 100%;
-    padding-top: 1400px;
+    padding-top: 400px;
     padding-right: 30px;
     padding-left: 90px;
     
@@ -928,6 +931,42 @@ padding-left: 90px;
 .herobutt{
     padding-right: 50px;
 
+}
+ .extention{
+    width: 100%;
+    
+}
+.extention-cards button{
+    padding: 0px 250px;
+}
+
+
+.extention-content p{
+    width: 70%;
+    line-height: 1.5;
+
+margin: 0 auto;
+
+}
+.mean-cards{
+    flex-direction: column;
+    padding-top: 650px;
+    
+}
+.card-1{
+    width: 730px;
+}
+.extention-butt{
+    width: 730px;
+}
+.extention-cards{
+    padding-left: 20px;
+}
+.excard2{
+    padding-top: 0px;
+}
+.excard3{
+    padding-top: 0px;
 }
 
     
