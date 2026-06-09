@@ -71,7 +71,7 @@ header{
     cursor: pointer;
     transform: scale(1.1);
 }
-.fa-solid{
+.fa-bars{
     display: none;
     
 
@@ -477,26 +477,191 @@ top: 400%;
 
 
 /* searching section start */
-/* .searching{
+.searching{
     width: 100%;
     height: 100vh;
-    background-color:  rgba(238, 238, 238, 0.637);
+    background-color:  rgb(247 247 247 );
     
     
 
 }
+.mean-searching{
+    padding-top: 150px;
+   
+
+}
 .search-contect{
-  padding: 90px 40px;
-    text-align: center;
+  padding: 100px 40px 0px 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 38%;
+    margin: 0 auto;
+}
+
+.search-contect h3{
+    font-family: robotoextra;
+    font-size: 23px;
+    color: rgb(36 42 69 );
+    word-spacing: 20%;
+
+}
+.search-contect p{
+    color: rgb(145 148 162);
+    font-family: roboto;
+  
+}
+.mean-question{
+ 
+   background-color: rgb(247 247 247 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+padding-top: 0px;
+}
+
+.search-Questions{
+  width: 35%;
+    height: 55vh;
+  
+
+    
+
+
+
+}
+.question-1{
+border-bottom: 1px solid rgb(230, 222, 222);
+padding: 20px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+
+}
+.question-1 h4{
+    font-family: robotoextra;
+    font-size: medium;
+    color: black;
+}
+/* searching section end */
+
+/* email section start */
+.master-email{
+    padding-top: 50px;
+
+    background-color: rgb(247 247 247 ) ;
+
+}
+.mean-email{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(82 103 223);
+    
+}
+.email-contect{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.email-allcontect{
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     justify-content: center;
-} */
-/* searching section end */
+align-items: center;
+text-align: center;
+padding-top: 80px;
+
+}
+.email-contect p{
+    color: rgb(255 255 255 );
+    font-family: roboto;
+    font-size: 15px;
+}
+.email-contect h1{
+    font-family: robotoextra;
+    font-size: x-large;
+    color: rgb(255 255 255 );
+}
+ #under-box{
+    width: 280px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.email-box button{
+    border: none;
+    background-color: transparent;
+    border: 1px solid rgb(250 89 89 );
+    background-color: rgb(250 89 89 );
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 5px;
+
+}
+.email-box{
+    display: flex;
+flex-direction: row;
+gap: 20px;    
+}
+/* email section end */
+/* footer start */
+.master-footer{
+    padding-top: 30px;
+    background-color: rgb(82 103 223) ;
+
+}
+.mean-footer{
+    width: 100%;
+    height:  15vh;
+    background-color: rgb(36 42 69 );
+    display: flex;
+
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.logo{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 
 
 
+.logo img{
+    width: 10%;
+    
+    
+}
+.logo ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 23px;
+}
+.logo ul li{
+    list-style: none;
+}
+.logo ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: robotoextra;
+    font-size: small;
+}
+/* footer end */
 
 
 
@@ -568,13 +733,12 @@ top: 400%;
 
 @media screen and  (min-width:0px) and (max-width:480px){
     
-    body
-     { overflow-x: hidden; }
+ 
 
     .mean{
         display: none;
     }
-    .fa-solid{
+    .fa-bars{
 display: block;  
 }
 header{
@@ -758,7 +922,72 @@ header{
     padding-top: 0px;
 }
  /* extention end */
+ /* searching start */
+ .searching{
+ width: 100%;
+ background-color: white;
+ 
+ }
+ .mean-searching{
+ padding-top: 1100px;
+ }
+ .search-contect{
+ width: 100%;
+ }
+.mean-question{
+    background-color: white;
+    display: flex;
+justify-content: ;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.search-Questions{
+    
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+   
+}
 
+.question-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mean-question .herobutt{
+    padding-top: 170px;
+    padding-left: 40px;
+}
+
+
+ /* searching end */
+/* email section start */
+.master-email{
+    padding-top: 400px;
+}
+.mean-email{
+    width: 102%;
+    background-color: rgb(82 103 223);
+    height: 90vh;
+}
+.email-box{
+    display: flex;
+    flex-direction: column;
+}
+#under-box{
+    width: 450px;
+    padding: 20px 0px;
+    font-size: medium;
+}
+.email-box button{
+    font-size: large;
+}
+
+/* email section end */
 }
 
 
@@ -968,7 +1197,84 @@ margin: 0 auto;
 .excard3{
     padding-top: 0px;
 }
+/* ssearching start */
+ .searching{
+ width: 100%;
+ 
+ }
+ .mean-searching{
+ padding-top: 900px;
+ }
+ .search-contect{
+ width: 100%;
+ padding: 0px 80px;
+ }
+ .searching{
+ width: 100%;
+ background-color: white;
+ 
+ }
+ .mean-searching{
+ padding-top: 1100px;
+ }
+ .search-contect{
+ width: 100%;
+ }
+.mean-question{
+    background-color: white;
+    display: flex;
+justify-content: ;
+    flex-direction: column;
+    padding-top: 40px;
+    padding: 0px 80px;
+}
+.search-Questions{
+    
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+   
+}
 
+.question-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mean-question .herobutt{
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+
+ /* searching end */
+
+/* email start */
+.master-email{
+    padding-top: 200px;
+}
+.mean-email{
+    width: 100%;
+    background-color: rgb(82 103 223);
+    height: 90vh;
+}
+.email-box{
+    display: flex;
+    flex-direction: column;
+}
+#under-box{
+    width: 680px;
+    padding: 20px 0px;
+    font-size: medium;
+}
+.email-box button{
+    font-size: large;
+}
+/* email end */
     
     
 }
